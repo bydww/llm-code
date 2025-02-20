@@ -51,5 +51,12 @@
 
 - 克隆或下载代码
 - 安装依赖库
+```
+pip install -r requirements.txt
+```
 - 运行相应的python文件、ipynb文件或shell脚本
+```
+python main.py
 
+torchrun --nnodes 1 --nproc_per_node=4 tensor_parallel.py
+```
