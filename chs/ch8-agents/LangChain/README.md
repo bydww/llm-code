@@ -11,6 +11,8 @@
 6. **RAG实践**：展示了如何使用 LangChain 实现一个基于 RAG 的语言模型。
 
 ## 使用说明
+- 从 [OpenAI](https://openai.com/api/) 申请获取 **api key** ，并替换各测试文件中的 `YOUR_API_KEY` 变量。RAG实践中，需要额外从 [SerpAPI](https://serpapi.com/manage-api-key) 申请 **serpapi api key** ，用于搜索引擎查询，并替换 `SERPAPI_API_KEY` 变量。
+
 - **模型输入/输出** 功能测试。
 ```
 python model_io.py
