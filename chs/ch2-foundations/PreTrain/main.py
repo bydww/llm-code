@@ -10,7 +10,7 @@ from transformers import BertTokenizerFast, BertConfig, BertForMaskedLM, Trainer
 from itertools import chain
 
 
-bookcorpus = load_dataset("bookcorpus", split="train")
+bookcorpus = load_dataset("bookcorpus", "plain_text", split="train")
 wiki = load_dataset("wikipedia", "20220301.en", split="train")
 
 # 仅保留 'text' 列

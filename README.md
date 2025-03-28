@@ -11,7 +11,7 @@
 | 2    | 大语言模型基础 | Transformer，预训练 | ch2-foundations/       |
 | 3    | 大语言模型预训练数据 | 数据清洗，语言处理   | ch3-pretrain-data/     |
 | 4    | 分布式训练     | 数据并行，流水线并行  | ch4-distributed/       |
-| 5    | 指令微调       | LoRA，Prompt Tuning   | ch5-finetuning/        |
+| 5    | 指令微调       | 指令数据集，LoRA   | ch5-finetuning/        |
 | 6    | 强化学习       | PPO，RLHF        | ch6-rl/                |
 | 7    | 多模态大语言模型     | MiniGPT-4，视觉-语言对齐   | ch7-multimodal/        |
 | 8    | 大模型智能体   | LangChain，智能体       | ch8-agents/            |
